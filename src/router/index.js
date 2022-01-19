@@ -1,11 +1,29 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/Home.vue'
+import Village from '../views/Village.vue'
+import Guild from '../views/Guild.vue'
+import Event from '../views/Event.vue'
+import Permit from '../views/Permit.vue'
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'Village',
+    component: Village
+  },
+  {
+    path: '/guild',
+    name: 'Guild',
+    component: Guild
+  },
+  {
+    path: '/event',
+    name: 'Event',
+    component: Event
+  },
+  {
+    path: '/permit',
+    name: 'Permit',
+    component: Permit
   },
   {
     path: '/about',
